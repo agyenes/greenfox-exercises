@@ -1,0 +1,25 @@
+[{
+	"name": "egyes",
+	"colour": "green",
+	"rate": 50,
+	"available": true,
+	"thumb": "content/img/ryu.jpg"
+}, {
+	"name": "kettes",
+	"colour": "blue",
+	"rate": 56,
+	"available": true,
+	"thumb": "content/img/ryu.jpg"
+}, {
+	"name": "harmas",
+	"colour": "red",
+	"rate": 500,
+	"available": true,
+	"thumb": "content/img/ryu.jpg"
+}, {
+	"name": "negyes",
+	"colour": "black",
+	"rate": 5,
+	"available": false,
+	"thumb": "content/img/ryu.jpg"
+}]

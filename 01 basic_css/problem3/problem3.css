@@ -1,0 +1,34 @@
+
+.apple, .pear, .melon, .potato, .carrot, .onion {
+  font-family: Times New Roman;
+  font-size: 30px;
+  border: 4px black solid;
+  width: 200px;
+  height: 30px;
+  padding: 20px;
+  }
+
+  .apple, .pear, .melon {
+  color: blue;
+  background-color: yellow;
+  }
+
+.potato, .carrot, .onion {
+  color: red;
+  background-color: cyan;
+  }
+
+.box1, .box2 {
+  background-color: green;
+  width: 250px;
+  height: 235px;
+  padding: 20px;
+  }
+
+.box1 {
+  margin: 35px 50px 10px;
+  }
+
+.box2 {
+  margin: 5px 50px 45px;
+  }

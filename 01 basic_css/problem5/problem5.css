@@ -1,0 +1,36 @@
+h1 {
+  color: blue;
+  }
+
+h2 {
+  color: orange;
+  }
+
+body {
+  color: black;
+  }
+
+span {
+  color: red;
+  }
+
+.symbols {
+  font-family: "Lucida Console";
+  font-size: 20px;
+  }
+
+ul {
+  color:blue;
+}
+
+ul:first-child {
+  color: red;
+}
+
+ul:first-child {
+  color: red;
+}
+
+.black-items {
+  color: black;
+}

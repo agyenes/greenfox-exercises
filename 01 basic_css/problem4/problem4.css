@@ -1,0 +1,22 @@
+h1,
+h2 {
+  color: green;
+}
+
+body {
+  color: black;
+}
+
+span {
+  color: red;
+}
+
+em {
+  color:blue;
+  font-style: italic;
+}
+
+.symbols {
+    font-family: "Lucida Console";
+    font-size: 20px;
+}

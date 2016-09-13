@@ -1,0 +1,22 @@
+
+div {
+  color: red;
+  background-color: yellow;
+  font-family: Times New Roman;
+  font-size: 30px;
+  border: 4px black solid;
+  width: 200px;
+  padding: 20px;
+  }
+
+.apple {
+  margin: 30px 45px 10px 45px;
+  }
+
+.pear {
+  margin: 10px 45px 10px 45px;
+  }
+
+.melon {
+  margin: 10px 45px 47px 45px;
+  }

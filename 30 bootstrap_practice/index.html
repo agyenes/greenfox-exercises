@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <title>Bootstrap site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-
+    BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      .thumb {padding: 60px 10px; text-align: center; background: #ddd;}
+      .thumb:nth-child(even) {background:#eee;}
+      h1, h2 {margin: 30px 0;}
+      .container-fluid, .container {margin: 50px auto; height: 200px;}
+    </style>
+  </head>
+
+  <body>
+
+    <div style="max-width: 1200px; margin: 0 auto; padding: 10px;">
+
+      <div class="container-fluid">
+
+        <!-- <div class="row">
+
+          <div class="col-md-8 col-sm-6 col-xs-12 content">
+              <h3>Content</h3>
+              <p><strong>Large screens: </strong>8 columns wide</p>
+              <p><strong>Medium screens: </strong>6 columns wide</p>
+              <p><strong>Small screens: </strong>12 columns wide</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 sidebar">
+              <h3>Sidebar</h3>
+              <p><strong>Large screens: </strong>4 columns wide</p>
+              <p><strong>Medium screens: </strong>6 columns wide</p>
+              <p><strong>Small screens: </strong>12 columns wide</p>
+          </div>
+
+        </div> -->
+
+        <div class="row" style="margin-top: 20px;">
+
+          <div class="col-xs-12 col-md-6 col-lg-8 col-lg-push-4 thumb">content</div>
+          <div class="col-xs-12 col-md-6 col-lg-4 col-lg-pull-8 thumb">sidebar</div>
+
+
+        </div>
+
+        <div class="col-xs-12">
+          <a href="#" class="btn btn-default">Anchor tag</a>
+          <button class="btn btn-default">Button tag</button>
+          <input class="btn btn-default" type="submit" value="submit"/>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-
+    Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
+
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-
+rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">

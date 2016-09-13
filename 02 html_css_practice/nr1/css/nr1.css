@@ -1,0 +1,256 @@
+/* main things */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eceeee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  padding: 10px 4%;
+  z-index: 100;
+  display: flex;
+  line-height: 1.5;
+  background: #00455c;
+  color: white;
+  margin: 0;
+}
+
+  header li {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .flex-container {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0 100px;
+  }
+
+  .menu ul {
+    color: white;
+    line-height: 27px;
+    font-size: 17px;
+    padding: 0 10px;
+  }
+
+  .menu .dropdownbtn {
+    cursor: pointer;
+  }
+
+  .dropdown {
+    display: none;
+    position: relative;
+  }
+
+  .dropdown p {
+    color: white;
+    line-height: 27px;
+    font-size: 17px;
+    padding: 0 10px;
+    z-index: 1;
+  }
+
+  .dropdown p:hover {
+    display: block;
+  }
+
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    background-color: white;
+  }
+
+    .masthead .logo {
+      max-height: 180px;
+      max-width: 210px;
+      flex-shrink: 3;
+      margin: 0 30px;
+    }
+
+    .masthead .other {
+      max-height: 170px;
+      width: 70%;
+      margin: 15px 0;
+      flex-shrink: 5;
+    }
+
+.wrapper {
+  margin: 0 20%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lora', serif;
+}
+
+  .wrapper li {
+    list-style-type: none;
+  }
+
+.left-column {
+  max-width: 780px;
+}
+
+  .left-column .cover {
+    max-width: 220px;
+    max-height: 220px;
+    margin-left: 15px;
+    float: left;
+  }
+
+  .summary {
+    padding: 10px 25px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 15px;
+  }
+
+    .summary-text {
+      display: flex;
+      padding: 15px;
+      flex-flow: column;
+      justify-content: space-between;
+    }
+
+    .summary h1 {
+      font-size: 33px;
+      line-height: 40px;
+      color: #333333;
+      font-weight: bold;
+    }
+
+    .summary h2 {
+      font-size: 26px;
+      line-height: 34px;
+      color: #333333;
+      font-weight: lighter;
+    }
+
+    .summary h3 {
+      font-size: 17px;
+      line-height: 27px;
+      color: #333333;
+      font-weight: lighter;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .summary p {
+      font-size: 13px;
+      line-height: 20px;
+      color: #333333;
+      font-weight: lighter;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .summary .author {
+      font-size: 13px;
+      line-height: 20px;
+      color: red;
+      font-weight: lighter;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-transform: uppercase;
+    }
+
+    .summary img {
+      max-width: 70px;
+      margin: 15px 0;
+    }
+
+    .wrapper .social {
+      display: flex;
+      justify-content: flex-start;
+      padding: 10px 0;
+      border-bottom: 1px solid #e0e0e0;
+      margin-left: 15px;
+    }
+
+    .social p {
+        margin: 0 20px;
+    }
+
+    .summary:after {
+      clear: both;
+      content: "";
+      display: block;
+    }
+
+  .content {
+    box-sizing: border-box;
+    max-width: 720px;
+    padding: 10px 10% 10px 20%;
+  }
+
+    .capital {
+      font-size: 56px;
+      font-weight: bold;
+    }
+
+    .content p,
+    .content ul {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: #333333;
+      line-height: 27px;
+      font-size: 17px;
+    }
+
+    .little {
+      font-size: 0.8em;
+    }
+
+.right-column {
+  max-width: 350px;
+  margin: 10px 50px;
+}
+
+  .right-column img {
+    width: 340px;
+    height: 210px;
+  }
+
+  .right-column h1 {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    border-top: 4px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 3px solid yellow;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    line-height: 30px;
+    color: #555b5e;
+  }
+
+  .right-column h2 {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .right-column p {
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+  }

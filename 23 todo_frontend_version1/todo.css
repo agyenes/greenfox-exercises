@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #50e3c2;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: #f7f7f7;
+  margin: 50px auto;
+  color: #9b9b9b;
+  padding: 30px;
+  min-width: 50%;
+}
+
+  h1 {
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    text-align: center;
+  }
+
+.input_section {
+  display: flex;
+  margin: 20px 0;
+  border: 2px #9b9b9b solid;
+}
+
+  button {
+    font-family: Lato, sans-serif;
+    font-size: 26px;
+    background-color: #df69e8;
+    color: white;
+    width: 20%;
+    height: 50px;
+    border-width: 0;
+  }
+
+  .input_section input {
+    width: 80%;
+    height: 50px;
+    font-size: 28px;
+    border-width: 0;
+  }
+
+  .lower_box {
+    font-family: Lato, sans-serif;
+    font-size: 34px;
+    padding: 25px;
+  }
+
+    ul {
+      font-family: Lato, sans-serif;
+      font-size: 28px;
+      line-height: 2.2;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .right_side img {
+      width: 50px;
+      height: 50px;
+      background: transparent;
+      border-radius: 20px;
+    }
+
+    ul input {
+      display: none;
+    }
+
+    ul button {
+      background-image: url(./garb2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 50px;
+      width: 50px;
+      background-color: transparent;
+      margin-right: 20px;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .left_side, .right_side {
+      display: flex;
+      vertical-align: middle;
+      padding: 5px 0;
+    }
